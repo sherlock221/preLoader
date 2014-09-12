@@ -35,16 +35,20 @@
 
 
 </body>
-<script type="text/javascript" src="loader.js"></script>
+<script type="text/javascript" src="loader.min.js"></script>
 <script type="text/javascript">
-
       var imgList = ["images/first-phone01.jpg","images/login-bg.jpg"];
         var ld = new loader(imgList);
-        ld.loadend(function(){
+        ld.loadend(function(i){
 
         }).complete(function(){
            alert("完成");
         });
+
+</script>
+<script type="text/javascript">
+
+
 
 </script>
 </html>
